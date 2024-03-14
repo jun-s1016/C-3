@@ -62,20 +62,33 @@ int main()
 	 
 	Node* head = new Node;
 
-	head->data = 0;
 	head->next = nullptr;
 
-	Node* node1 = new Node;
+	PushFront(head, 100);
+	PushFront(head, 99);
+	PushFront(head, 98);
 
-	head->next = node1;
-	node1->data = 10;
+	Node* currentNode = head->next;
 
-	Node* node2 = new Node;
+	while (currentNode != NULL)
+	{
+		cout << currentNode->data << endl;
+		currentNode = currentNode->next;
+	}
+		
+	currentNode = head;
 
-	node1->next = node2;
-	node2->data = 20;
+	while (currentNode != NULL)
+	{
+		head = currentNode->next;
 
-	node2->next = nullptr;
+		delete currentNode;
+
+		currentNode = head;
+	}
+
+
+
 
 #pragma endregion
 
