@@ -1,9 +1,2 @@
 ﻿  Program3.cpp
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(63,2): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(65,12): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(66,12): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(67,12): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(69,22): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(77,16): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(81,3): error C2065: 'head': 선언되지 않은 식별자입니다.
-C:\Users\lg\Desktop\C-3\Program3\Program3.cpp(85,17): error C2065: 'head': 선언되지 않은 식별자입니다.
+  Program3.vcxproj -> C:\Users\lg\Desktop\C-3\Program3\x64\Debug\Program3.exe
